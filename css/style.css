@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    cursor: grab;
+    font-size: 50px;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px ;
+    
+}
+
+.left {
+    width: 254px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.right {
+    width: 254px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.clothes {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-auto-rows: 190px;
+    gap: 20px;
+    padding: 40px;
+    
+}
+
+.product {
+    width: 367px;
+    height: 506px;
+    text-align: center;
+    border: 2px solid black
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.black {
+    width: 364px;
+    height: 300px;
+    background-color: black;
+
+    h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.863);
+    }
+
+    p {
+        margin-top: 10px;
+        color:  #FFFFFF8F;
+         left: 134px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-weight: 600;
+         font-size: 14px;
+
+        
+    }
+
+    button {
+        width: 300px;
+        height: 50px;
+        margin-top: 100px;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
